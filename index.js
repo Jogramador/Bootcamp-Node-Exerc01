@@ -47,7 +47,7 @@ server.post('/projects', (req, res) => {
         tasks: []
     }
 
-    projects.push(project);
+     projects.push(project);
 
     return res.json({ resposta: 'Projeto cadastrado!!' });
 
